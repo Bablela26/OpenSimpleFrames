@@ -19,7 +19,7 @@
     "simpleframes:framed_cover_corner",
     "simpleframes:framed_inset_cover",
     "simpleframes:framed_extended_block_down",
-    "simpleframes:framed_extended_block_up"
-
+    "simpleframes:framed_extended_block_up",
+    "simpleframes:framed_slab_vertical"
   ]
 }
