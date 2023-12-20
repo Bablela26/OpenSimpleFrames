@@ -1,17 +1,17 @@
-# Open Simple Frames
+# Open Simple Frames Create Flavor
 
-![cursed corners](https://media.discordapp.net/attachments/978361179892240475/1048346676420694078/image.png)
+![cursed corners](https://media.discordapp.net/attachments/328940219099250688/1186825845864669215/CreateFlavoredOpenSimpleFrames.png)
 <br>
-Carpenters Blocks but using states?
+Carpenters Blocks but Fabric 1.20, Create Flavor, now with Vertical Slabs !
 ## The Concept
 The idea of Carpenters blocks is that for any given shape in minecraft it should be able to use any texture, for this, a block has to know what model and what texture to use, by default a block already knows what model to use, but we need to store additional information about what texture to use instead, from what I gather, this is usally done using block entities, block entities feel like a lot of overhead for what is effectively a single number, as such my "frame" blocks have an additional property caled texture id.
 <br>
 when a player interacts with a block, if they have a block in there hand then that blocks texture is then assigned a texture id, this is universal across all frames, for instance, if stone was used on some stairs and assigned the id 1, then any other frame would use texture id 1 for stone, this does add a lot of extra states to some blocks, but at a low level, having the game take a bit longer to load but run fairly unobstructed in game, is a good thing.
 
 ## Whats here?
-![blocks in the creative inventory](https://media.discordapp.net/attachments/978361179892240475/1050470803398987796/image.png)
+![blocks in the creative inventory](https://media.discordapp.net/attachments/328940219099250688/1186825845399097364/CreateFlavoredOpenSimpleFramesCreativeTab.png?ex=6594a8b3&is=658233b3&hm=b53d2bcc020eb26fe09d1a8160895a2934d70143a340c58ca08a8f0f01d17485&=&format=webp&quality=lossless)
 <br>
-generally all blocks can be crafted with sticks.
+Crafts have been modified to make them like other copycat blocks, meaning using zinc ingots in a stonecutter.
 <br>
 some odd blocks in this mod should also be noted
 - ramps, and corner ramps, functionally act like stairs
@@ -23,7 +23,7 @@ some odd blocks in this mod should also be noted
 - doors exist
 - blocks that are 1.5 blocks tall one up, one down, they render as such
 - there are chests, be careful with them however.
-![cursed chest](https://media.discordapp.net/attachments/334772849233625102/1050178587690532894/image.png)
+- NEW!! Vertical slabs
 
 ## Commands
 
